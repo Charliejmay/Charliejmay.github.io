@@ -13,6 +13,16 @@
 	padding-right: 300px;
 }
 
+.ProjectTitle {
+	padding-left: 300px;
+	font-size: 24px;
+}
+
+img.resize {
+	width: 250px;
+	height: 80px;
+}
+
 body {
 	background-color: #CCCCCC;
 }

@@ -18,11 +18,17 @@
 	font-size: 24px;
 }
 
+.link {
+	font-size:18px;
+	text-align:center;
+}
+
 img.resize {
 	display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  padding-bottom: 20px;
 }
 
 img.resize2 {
@@ -30,7 +36,15 @@ img.resize2 {
   margin-left: auto;
   margin-right: auto;
   width: 30%;
-  padding-bottom: 4px;
+  padding-bottom: 24px;
+}
+
+img.resize3 {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  padding-bottom: 8px;
 }
 
 body {

@@ -19,10 +19,21 @@
 }
 
 img.resize {
-	width: 250px;
-	height: 80px;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+img.resize2 {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding-bottom: 4px;
 }
 
 body {
 	background-color: #CCCCCC;
+	padding-bottom: 50px;
 }

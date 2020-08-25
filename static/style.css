@@ -1,0 +1,18 @@
+.img-container {
+	text-align: center;
+	display: block;
+}
+
+.Header {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.BodyParagraph {
+	padding-left: 300px;
+	padding-right: 300px;
+}
+
+body {
+	background-color: #CCCCCC;
+}

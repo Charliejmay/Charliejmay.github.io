@@ -1,21 +1,42 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .img-container {
 	text-align: center;
 	display: block;
 }
 
 .Header {
-	padding-top: 50px;
+	padding-top: auto;
+  padding-bottom: auto;
+  margin-top: 8%;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
 	text-align: center;
 }
 
+.Header2 {
+  padding-top: auto;
+  padding-bottom: auto;
+  margin-top: 4%;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
 .BodyParagraph {
-	padding-left: 300px;
-	padding-right: 300px;
+	padding-left: 25%;
+	padding-right: 25%;
 }
 
 .ProjectTitle {
-	padding-left: 300px;
-	font-size: 24px;
+	padding-top:15px;
+	font-size: 20px;
+	text-align: center;
+  font-weight: bold;
 }
 
 .link {
@@ -23,7 +44,7 @@
 	text-align:center;
 }
 
-img.resize {
+img.qandmphoto {
 	display: block;
   margin-left: auto;
   margin-right: auto;
@@ -31,7 +52,7 @@ img.resize {
   padding-bottom: 20px;
 }
 
-img.resize2 {
+img.atcphoto {
 	display: block;
   margin-left: auto;
   margin-right: auto;
@@ -39,7 +60,7 @@ img.resize2 {
   padding-bottom: 24px;
 }
 
-img.resize3 {
+img.karinphoto {
 	display: block;
   margin-left: auto;
   margin-right: auto;
@@ -47,7 +68,98 @@ img.resize3 {
   padding-bottom: 8px;
 }
 
+img.symlinkphoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding-top: 3%;
+  padding-bottom: 8%;
+}
+
+img.cockaignephoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding-bottom: 8%;
+}
+
 body {
+	overflow-y: scroll;
+	overflow-x: hidden;
 	background-color: #CCCCCC;
 	padding-bottom: 50px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 33.333%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+	margin: 0 -5px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: justify;
+  background-color: #f1f1f1;
+  height: calc(100% - 15px);
+  margin-bottom: 15px;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.CenterMyCards {
+	margin-left: 10%;
+  margin-right: 10%;
+}
+
+.socialButton {
+  background: #3B5998;
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.socialHeader {
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  text-align: center;
 }
